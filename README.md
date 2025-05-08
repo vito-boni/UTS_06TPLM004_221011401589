@@ -1,6 +1,8 @@
 # 🌤️ Realtime Weather App
 
-A clean, modern Flutter app that shows live weather based on your **current location** — no input needed.
+A clean, modern Flutter app that shows live weather based on your **current location** !
+
+*and no input needed.
 
 ## 🔍 Features
 
