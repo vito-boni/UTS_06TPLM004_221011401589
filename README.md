@@ -1,16 +1,39 @@
-# cuaca
+# 🌤️ Realtime Weather App
 
-A new Flutter project.
+A clean, modern Flutter app that shows live weather based on your **current location** — no input needed.
 
-## Getting Started
+## 🔍 Features
 
-This project is a starting point for a Flutter application.
+- 📍 Auto-location detection (using GPS)
+- 🌦️ Live weather data (via OpenWeatherMap API)
+- 🌡️ Real-time temperature, min/max, and description
+- 🕓 Date display with formatting
+- 🎨 Beautiful UI with background overlay
+- 📱 Mobile-friendly and responsive design
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `geolocator` – get user’s real-time location  
+- `http` – fetch data from weather API  
+- `intl` – format dates  
+- `google_fonts` – use Roboto and custom typography
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+Make sure you have Flutter SDK installed.
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/vito-boni/UTS_06TPLM004_221011401589.git
+
+2. Get packages:
+   ```bash
+    flutter pub get
+
+3. Run the app:
+   ```bash
+   flutter run
+
+🌐 API Key
+This app uses OpenWeatherMap.
+Replace the apiKey in WeatherScreen with your own for production use.
